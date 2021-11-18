@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'GilroyBold';
+    src: url(/fonts/Gilroy/Gilroy-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'GilroyExtraBold';
+    src: url(/fonts/Gilroy/Gilroy-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: 'Actor';
+    src: url(/fonts/Actor-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'ChronicleDisplay';
+    src: url(/fonts/Chronicle-Display-Semibold.otf);
+}
+
