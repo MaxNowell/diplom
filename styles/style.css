@@ -1,0 +1,35 @@
+html, body {
+    background-color: #354147 ;
+}
+
+.header {
+    background-image: url(/img/head.png);
+    background-repeat: no-repeat;
+    padding-bottom: 1749px;
+    padding-top: 63px;
+}
+
+.logo_title {
+    color: #fff;
+
+}
+
+.navigation {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.navigation li a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 40px;
+}
+
+.account_link {
+    text-decoration: none;
+    color: #fff;
+}
