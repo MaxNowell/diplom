@@ -1,20 +1,22 @@
 html, body {
-    background-color: #354147 ;
+    background-color: #0B1D26 !important;
 }
 
 .header {
     background-image: url(/img/head.png);
     background-repeat: no-repeat;
-    padding-bottom: 1749px;
+    width: 100%;
+    padding-bottom: 1778px;
     padding-top: 63px;
+    z-index: 1;
 }
 
 .logo_title {
     color: #fff;
     font-family: 'ChronicleDisplay';
     font-size: 32px;
-    margin-top: -6px;
-    margin-left: -76px;
+    margin-top: 1px;
+    margin-left: 22px;
 }
 
 .navigation {
@@ -23,7 +25,8 @@ html, body {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    margin-left: 24px;
+    margin-left: 151px;
+    margin-top: 5px;
 
 }
 
@@ -36,8 +39,8 @@ html, body {
 }
 
 .account_block {
-    margin-left: 42px;
-    margin-top: 2px;
+    margin-left: 159px;
+    margin-top: 7px;
 }
 
 .account_link {
@@ -63,7 +66,7 @@ html, body {
     flex-wrap: wrap;
     align-items: center;
     margin-top: 294px;
-    margin-left: -152px;
+    margin-left: -84px;
     width: 116px;
 }
 
@@ -85,8 +88,8 @@ html, body {
 }
 
 .main_text_block {
-    margin-top: 177px;
-    margin-left: -29px;
+    margin-top: 180px;
+    margin-left: -23px;
 }
 
 /* .line_gold {
@@ -97,13 +100,13 @@ html, body {
 } */
 
 .text_title {
-    font-family: 'GilroyBold';
+    font-family: 'GilroyExtraBold';
     font-size: 18px;
     color: #FBD784;
     text-transform: uppercase;
     letter-spacing: 6px;
-    margin-left: 5px;
-    margin-bottom: 24px;
+    margin-left: 7px;
+    margin-bottom: 26px;
 }
 
 .text_title img {
@@ -118,8 +121,85 @@ padding-right: 32px;
     
 }
 
+.scrolldown_title {
+    color: #fff;
+    font-size: 18px;
+    font-family: 'GilroyBold';
+    margin-left: -17px;
+}
 
-@media screen and (max-width: 703px) {
+.scrolldown_title i {
+margin-left: 17px;
+font-size: 20px;
+}
+
+.main_block {
+    z-index: 2;
+    margin-top: -1282px;
+}
+
+.numbers_of_text {
+    color: #fff;
+    font-family: 'GilroyBold';
+    font-size: 240px;
+    opacity: 0.3;
+    margin-top: 20px;
+    margin-bottom: -142px;
+}
+
+.text_title_middle_block {
+    font-family: 'GilroyExtraBold';
+    font-size: 18px;
+    color: #FBD784;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    padding-bottom: 11px;
+
+}
+
+.text_title_middle_block img {
+    margin-right: 24px;
+}
+
+.leftblock {
+    margin-left: 55px;
+}
+
+.title_of_mainblock {
+    color: #fff;
+    font-size: 64px;
+    font-family: 'ChronicleDisplay';
+    padding-bottom: 18px;
+}
+
+.hiking_text_block {
+    font-family: 'GilroyBold';
+    font-size: 18px;
+    color: #fff;
+    line-height: 32px;
+}
+
+.img_of_about {
+    width: 442px;
+    height: 598px;
+    margin-top: 211px;
+    margin-left: 131px;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .img_of_about {
+        width: 242px;
+        height: 358px;
+        margin-top: 211px;
+        margin-left: 11px;
+    }
+
+
+}
+
+
+@media screen and (max-width: 856px) {
 
     .logo_title {
         color: #fff;
@@ -178,11 +258,12 @@ padding-right: 32px;
         width: 116px;
     }
 
+
 }
 
 
 
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 530px) {
 
     .logo_title {
         color: #fff;
@@ -274,6 +355,13 @@ padding-right: 32px;
         margin-top: 188px;
         margin-left: -85px;
         width: 116px;
+    }
+
+    .img_of_about {
+        width: 142px;
+        height: 258px;
+        margin-top: 211px;
+        margin-left: 11px;
     }
 
 }
