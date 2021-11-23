@@ -1,11 +1,11 @@
 html, body {
-    background-color: #0B1D26 !important;
+    background-color: #2F4951 !important;
+
 }
 
 .header {
-    background-image: url(/img/head.png);
+    background-image: url(/img/bghead.png);
     background-repeat: no-repeat;
-    width: 100%;
     padding-bottom: 1778px;
     padding-top: 63px;
     z-index: 1;
@@ -15,8 +15,8 @@ html, body {
     color: #fff;
     font-family: 'ChronicleDisplay';
     font-size: 32px;
-    margin-top: 1px;
-    margin-left: 22px;
+    margin-top: 0px;
+    margin-left: 77px;
 }
 
 .navigation {
@@ -25,8 +25,7 @@ html, body {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    margin-left: 151px;
-    margin-top: 5px;
+    margin-left: 89px;
 
 }
 
@@ -38,9 +37,18 @@ html, body {
     font-size: 18px;
 }
 
+.navigation li a:hover {
+
+    color: #FBD784;
+    font-size: 22px;
+    transition: 0.5s;
+    text-decoration: underline;
+    min-height: 50px;
+
+}
+
 .account_block {
-    margin-left: 159px;
-    margin-top: 7px;
+    margin-left: 155px;
 }
 
 .account_link {
@@ -57,6 +65,13 @@ html, body {
     color: #fff;
 }
 
+.account_block i:hover {
+    font-size: 18px;
+    color: #fff;
+    transform: rotate(360deg);
+    transition: 2s;
+}
+
 .socials {
     color: #fff;
     font-family: 'GilroyBold';
@@ -65,8 +80,8 @@ html, body {
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    margin-top: 294px;
-    margin-left: -84px;
+    margin-top: 292px;
+    margin-left: -3px;
     width: 116px;
 }
 
@@ -88,8 +103,9 @@ html, body {
 }
 
 .main_text_block {
-    margin-top: 180px;
-    margin-left: -23px;
+    margin-top: 137px;
+    margin-left: 61px;
+    line-height: 100px;
 }
 
 /* .line_gold {
@@ -106,7 +122,7 @@ html, body {
     text-transform: uppercase;
     letter-spacing: 6px;
     margin-left: 7px;
-    margin-bottom: 26px;
+    margin-bottom: -3px;
 }
 
 .text_title img {
@@ -125,7 +141,8 @@ padding-right: 32px;
     color: #fff;
     font-size: 18px;
     font-family: 'GilroyBold';
-    margin-left: -17px;
+    margin-left: 63px;
+    margin-top: -27px;
 }
 
 .scrolldown_title i {
@@ -135,7 +152,7 @@ font-size: 20px;
 
 .main_block {
     z-index: 2;
-    margin-top: -1282px;
+    margin-top: -1338px;
 }
 
 .numbers_of_text {
@@ -162,7 +179,7 @@ font-size: 20px;
 }
 
 .leftblock {
-    margin-left: 55px;
+    margin-left: 81px;
 }
 
 .title_of_mainblock {
@@ -177,18 +194,412 @@ font-size: 20px;
     font-size: 18px;
     color: #fff;
     line-height: 32px;
+    margin-bottom: 9px;
+}
+
+
+.hiking_arrow_right {
+    color:#FBD784;
+    font-family: 'GilroyBold';
+    font-size: 18px;
+    margin-left: 80px;
+    padding: 10px;
+}
+
+.hiking_arrow_right i {
+    margin-left: 10px;
+    color:#FBD784;
+}
+
+.hiking_arrow_right a:hover {
+    color:#FBD784;
+    text-decoration: none
+}
+
+.hiking_arrow_right:hover {
+    color:#FBD784;
+    transition: 1s;
+    font-size: 20px;
+    transform: scale(1.4);
+    margin-left: 150px;
+
 }
 
 .img_of_about {
-    width: 442px;
-    height: 598px;
-    margin-top: 211px;
-    margin-left: 131px;
+    width: 467px;
+    height: 573px;
+    margin-top: 213px;
+    margin-left: 110px;
+    border-radius: 20px;
 }
+
+.img_of_about:hover {
+    transform: scale(1.1);
+    transition: 1s;
+
+}
+
+.rightblock {
+  /*   margin-top: 131px; */
+    margin-left: -110px;
+    /* width: 580px; */
+}
+
+.img_of_about_second {
+    width: 472px;
+    height: 637px;
+    margin-top: 180px;
+    margin-left: 70px;
+    border-radius: 20px;
+}
+
+.img_of_about_second:hover {
+    transform: scale(1.1);
+    transition: 1s;
+
+}
+
+.numbers_of_text_second {
+    color: #fff;
+    font-family: 'GilroyBold';
+    font-size: 240px;
+    opacity: 0.3;
+    margin-top: -21px;
+    margin-bottom: -113px;
+}
+
+.text_title_middle_block_second {
+    font-family: 'GilroyExtraBold';
+    font-size: 18px;
+    color: #FBD784;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    padding-bottom: 11px;
+    margin-left: -51px;
+
+}
+
+.text_title_middle_block_second img {
+    margin-right: 24px;
+}
+
+.title_of_mainblock_second {
+    color: #fff;
+    font-size: 64px;
+    font-family: 'ChronicleDisplay';
+    padding-bottom: 20px;
+    margin-left: -49px;
+}
+
+.hiking_text_block_second {
+    font-family: 'GilroyBold';
+    font-size: 18px;
+    color: #fff;
+    line-height: 32px;
+    margin-bottom: 9px;
+    margin-left: -49px;
+
+}
+
+.hiking_arrow_right_second a {
+    color:#FBD784;
+    font-family: 'GilroyBold';
+    font-size: 18px;
+    margin-top: 25px;
+    margin-left: -161px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+
+.hiking_arrow_right_second i {
+    margin-left: 10px;
+    color:#FBD784;
+}
+
+.hiking_arrow_right_second a:hover {
+    color:#FBD784;
+    text-decoration: none
+}
+
+.hiking_arrow_right_second:hover {
+    color:#FBD784;
+    transition: 1s;
+    font-size: 20px;
+    transform: scale(1.4);
+    margin-left: 120px;
+    
+}
+
+.numbers_of_text_third {
+    color: #fff;
+    font-family: 'GilroyBold';
+    font-size: 240px;
+    opacity: 0.3;
+    margin-top: 20px;
+    margin-bottom: -142px;
+}
+
+.text_title_middle_block_third {
+    font-family: 'GilroyExtraBold';
+    font-size: 18px;
+    color: #FBD784;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    padding-bottom: 11px;
+
+}
+
+.text_title_middle_block_third img {
+    margin-right: 24px;
+}
+
+.thirdblock {
+    margin-left: 81px;
+}
+
+.title_of_mainblock_third {
+    color: #fff;
+    font-size: 64px;
+    font-family: 'ChronicleDisplay';
+    padding-bottom: 18px;
+}
+
+.hiking_text_block_third {
+    font-family: 'GilroyBold';
+    font-size: 18px;
+    color: #fff;
+    line-height: 32px;
+    margin-bottom: 9px;
+}
+
+
+.hiking_arrow_right_third {
+    color:#FBD784;
+    font-family: 'GilroyBold';
+    font-size: 18px;
+    margin-left: 80px;
+}
+
+.hiking_arrow_right_third a {
+    color:#FBD784;
+    font-family: 'GilroyBold';
+    font-size: 18px;
+    margin-left: -9px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+
+
+.hiking_arrow_right_third i {
+    margin-left: 10px;
+    color:#FBD784;
+}
+
+.hiking_arrow_right_third a:hover {
+    color:#FBD784;
+    text-decoration: none
+}
+
+.hiking_arrow_right_third:hover {
+    color:#FBD784;
+    transition: 1s;
+    font-size: 20px;
+    transform: scale(1.4);
+    margin-left: 150px;
+    margin-left: -10;
+
+}
+
+.img_of_about_third {
+    width: 467px;
+    height: 573px;
+    margin-top: 213px;
+    margin-left: 110px;
+    border-radius: 20px;
+}
+
+.img_of_about_third:hover {
+    transform: scale(1.1);
+    transition: 1s;
+
+}
+
+.equipment_title {
+    padding-top: 80px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 62px;
+    font-family: 'GilroyExtraBold';
+    color: #FBD784;
+    border-bottom: 2px solid #FBD784;
+    opacity: 0.8;
+}
+
+
+.boots img{
+    width: 331px;
+    height: 397px;
+    border-radius: 25px;
+    margin-bottom: 60px;
+    margin-top: 50px;
+
+  
+}
+
+.boots img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    -webkit-box-shadow: -3px 15px 11px 0px rgba(0, 0, 0, 0.37);
+    -moz-box-shadow: -3px 15px 11px 0px rgba(0, 0, 0, 0.37);
+    box-shadow: -3px 15px 11px 0px rgba(0, 0, 0, 0.37);
+}
+
+.bagpacks img{
+    width: 331px;
+    height: 397px;
+    border-radius: 25px;
+    margin-bottom: 60px;
+    margin-top: 50px;
+  
+}
+
+.bagpacks img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    -webkit-box-shadow: -3px 15px 11px 0px rgba(0, 0, 0, 0.36);
+    -moz-box-shadow: -3px 15px 11px 0px rgba(0, 0, 0, 0.36);
+    box-shadow: -3px 15px 11px 0px rgba(0, 0, 0, 0.36);
+}
+
+.camp img{
+    width: 331px;
+    height: 397px;
+    border-radius: 25px;
+    margin-bottom: 60px;
+    margin-top: 50px;
+   
+}
+
+.camp img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    -webkit-box-shadow: -3px 15px 11px 0px rgba(0, 0, 0, 0.37);
+    -moz-box-shadow: -3px 15px 11px 0px rgba(0, 0, 0, 0.37);
+    box-shadow: -3px 15px 11px 0px rgba(0, 0, 0, 0.37);
+}
+
+.equipment_list {
+    border-bottom: 2px solid #FBD784;
+    margin-bottom: 60px;
+}
+
+.aboutus_title {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 62px;
+    font-family: 'GilroyExtraBold';
+    color: #FBD784;
+    opacity: 0.8;
+}
+
+.textabout {
+    font-size: 18px;
+    color: white;
+    font-family: 'ChronicleDisplay';
+    border-bottom: 2px solid #FBD784;
+
+}
+
+.textabout h5{
+    font-size: 32px;
+    font-family: 'GilroyExtraBold';
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.mapcontacts {
+    padding-top: 80px;
+}
+
+.footer {
+    background-color: #AE9967;
+    padding-top: 30px;
+}
+
+.footer_logo {
+    color: #fff;
+    font-family: 'ChronicleDisplay';
+    font-size: 32px;
+    padding-bottom: 30px;
+    padding-left: 351px;
+
+}
+
+.footer_text {
+    color: #fff;
+    font-family: 'GilroyRegular';
+    font-size: 18px;
+    padding-bottom: 30px;
+    padding-left: 351px;
+    width: 617px;
+}
+
+.footer_copy {
+    color: #fff;
+    font-family: 'GilroyRegular';
+    font-size: 18px;
+    padding-bottom: 20px;
+    padding-left: 351px;
+    opacity: 0.5;
+}
+
+.footer_nav1 h6 {
+    font-family: 'GilroyBold';
+    color: #FBD784;
+    font-size: 24px;
+    line-height: 32px;
+}
+.footer_nav2 h6 {
+    font-family: 'GilroyBold';
+    color: #FBD784;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.footer_nav1 li, .footer_nav2 li {
+    list-style-type: none;
+}
+
+.footer_nav1 a, .footer_nav2 a {
+    color: #fff;
+    font-family: 'GilroyRegular';
+    font-size: 18px;
+    line-height: 45px;
+    text-decoration: none;
+
+}
+
 
 
 @media screen and (max-width: 1200px) {
     .img_of_about {
+        width: 242px;
+        height: 358px;
+        margin-top: 211px;
+        margin-left: 11px;
+    }
+
+    .img_of_about_second {
+        width: 242px;
+        height: 358px;
+        margin-top: 211px;
+        margin-left: 11px;
+    }
+
+    .img_of_about_third {
         width: 242px;
         height: 358px;
         margin-top: 211px;
@@ -363,6 +774,8 @@ font-size: 20px;
         margin-top: 211px;
         margin-left: 11px;
     }
+
+
 
 }
 
