@@ -1,7 +1,7 @@
 html, body {
     background-color: #2F4951 !important;
-
 }
+
 
 .header {
     background-image: url(/img/bghead.png);
@@ -26,6 +26,7 @@ html, body {
     flex-wrap: wrap;
     justify-content: center;
     margin-left: 89px;
+    margin-bottom: 0px;
 
 }
 
@@ -35,6 +36,7 @@ html, body {
     margin-right: 40px;
     font-family: 'GilroyBold';
     font-size: 18px;
+   
 }
 
 .navigation li a:hover {
@@ -43,7 +45,7 @@ html, body {
     font-size: 22px;
     transition: 0.5s;
     text-decoration: underline;
-    min-height: 50px;
+    min-height: 20px;
 
 }
 
@@ -73,12 +75,12 @@ html, body {
 }
 
 .socials {
-    color: #fff;
     font-family: 'GilroyBold';
     font-size: 18px;
-    display: flex;
+    color: #fff;
+    /* display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    flex-wrap: wrap; */
     align-items: center;
     margin-top: 292px;
     margin-left: -3px;
@@ -88,7 +90,13 @@ html, body {
 .socials li {
 
     list-style-type: none;
-    margin-bottom: 29px;
+    
+}
+
+.socials li a {
+    text-decoration: none;
+    color: #fff;
+    
 }
 
 .socials li i {
@@ -96,11 +104,36 @@ html, body {
     font-size: 20px;
 }
 
+
 .sub_title {
     transform: rotate(90deg);
-    width: 118px;
-    margin: 0px;
+    margin-bottom: 11px;
+    margin-right: -36px;
 }
+
+
+
+ .instasocial a {
+    margin-top: 50px;
+    margin-left: 41px;
+    padding: 10px;
+} 
+
+.instasocial a i {
+    margin-top: 50px;
+}
+
+
+.twittersocial a {
+    margin-top: 50px;
+    margin-left: 41px;
+    padding: 10px;
+} 
+
+.twittersocial a i {
+    margin-top: 20px;
+}
+
 
 .main_text_block {
     margin-top: 137px;
@@ -108,12 +141,6 @@ html, body {
     line-height: 100px;
 }
 
-/* .line_gold {
-    size: 4px;
-    color:#fff;
-    width: 80px;
-    opacity: unset;
-} */
 
 .text_title {
     font-family: 'GilroyExtraBold';
@@ -522,6 +549,13 @@ font-size: 20px;
 
 .mapcontacts {
     padding-top: 80px;
+    padding-bottom: 80px;
+
+}
+
+.mapyandex {
+    width: 1300px;
+    height: 600px;
 }
 
 .footer {
@@ -534,7 +568,7 @@ font-size: 20px;
     font-family: 'ChronicleDisplay';
     font-size: 32px;
     padding-bottom: 30px;
-    padding-left: 351px;
+   /*  padding-left: 610px; */
 
 }
 
@@ -543,8 +577,8 @@ font-size: 20px;
     font-family: 'GilroyRegular';
     font-size: 18px;
     padding-bottom: 30px;
-    padding-left: 351px;
-    width: 617px;
+    /* margin-left: 610px; */
+    width: 274px;
 }
 
 .footer_copy {
@@ -552,8 +586,9 @@ font-size: 20px;
     font-family: 'GilroyRegular';
     font-size: 18px;
     padding-bottom: 20px;
-    padding-left: 351px;
+    /* padding-left: 610px; */
     opacity: 0.5;
+    margin-top: 117px;
 }
 
 .footer_nav1 h6 {
@@ -579,12 +614,95 @@ font-size: 20px;
     font-size: 18px;
     line-height: 45px;
     text-decoration: none;
+    
+}
+
+.footer_nav1 a:hover  {
+    color: #fff;
+}
+
+.footer_nav2 a:hover {
+    color: white;
+}
+
+
+@media screen and (max-width: 1402px) {
+
+   .img_of_about_second {
+       width: 242px;
+       height: 358px;
+       margin-top: 211px;
+       margin-left: 11px;
+   }
+
+
+    .equipment_title {
+        padding-top: 80px;
+        padding-bottom: 30px;
+        text-align: center;
+        font-size: 42px;
+        font-family: 'GilroyExtraBold';
+        color: #FBD784;
+        border-bottom: 2px solid #FBD784;
+        opacity: 0.8;
+    }
+    
+    
+    .boots img{
+        width: 231px;
+        height: 297px;
+        border-radius: 25px;
+        margin-bottom: 60px;
+        margin-top: 50px;
+    
+      
+    }
+    
+    
+    .bagpacks img{
+        width: 231px;
+        height: 297px;
+        border-radius: 25px;
+        margin-bottom: 60px;
+        margin-top: 50px;
+      
+    }
+    
+    
+    .camp img{
+        width: 231px;
+        height: 297px;
+        border-radius: 25px;
+        margin-bottom: 60px;
+        margin-top: 50px;
+       
+    }
+    
+    .equipment_list {
+        border-bottom: 2px solid #FBD784;
+        margin-bottom: 60px;
+    }
+    
+    .mapcontacts {
+        width: 100%;
+        height: 500px;
+    }
+
+    .mapyandex {
+        width: 100%;
+        height: 100%;
+    }
+
 
 }
 
 
 
 @media screen and (max-width: 1200px) {
+    .account_block {
+        margin-left: 38px;
+    }
+
     .img_of_about {
         width: 242px;
         height: 358px;
@@ -603,7 +721,70 @@ font-size: 20px;
         width: 242px;
         height: 358px;
         margin-top: 211px;
-        margin-left: 11px;
+        margin-left: 61px;
+    }
+
+    .footer_logo {
+        color: #fff;
+        font-family: 'ChronicleDisplay';
+        font-size: 32px;
+        padding-bottom: 30px;
+    
+    }
+    
+    .footer_text {
+        color: #fff;
+        font-family: 'GilroyRegular';
+        font-size: 18px;
+        padding-bottom: 30px;
+        width: 274px;
+    }
+    
+    .footer_copy {
+        color: #fff;
+        font-family: 'GilroyRegular';
+        font-size: 13px;
+        padding-bottom: 20px;
+        opacity: 0.5;
+        margin-top: 117px;
+    }
+
+    .footer_nav1, .footer_nav2 {
+        margin-left: -74px;
+    }
+    
+    .footer_nav1 h6 {
+        font-family: 'GilroyBold';
+        color: #FBD784;
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .footer_nav2 h6 {
+        font-family: 'GilroyBold';
+        color: #FBD784;
+        font-size: 18px;
+        line-height: 32px;
+    }
+    
+    .footer_nav1 li, .footer_nav2 li {
+        list-style-type: none;
+    }
+    
+    .footer_nav1 a, .footer_nav2 a {
+        color: #fff;
+        font-family: 'GilroyRegular';
+        font-size: 14px;
+        line-height: 32px;
+        text-decoration: none;
+        
+    }
+    
+    .footer_nav1 a:hover  {
+        color: #fff;
+    }
+    
+    .footer_nav2 a:hover {
+        color: white;
     }
 
 
@@ -615,7 +796,7 @@ font-size: 20px;
     .logo_title {
         color: #fff;
         font-family: 'ChronicleDisplay';
-        font-size: 32px;
+        font-size: 22px;
         margin-top: -6px;
         margin-left: -3px;
     }
@@ -648,12 +829,12 @@ font-size: 20px;
         color: #fff;
         padding-left: 3px;
         font-family: 'GilroyBold';
-        font-size: 17px;
+        font-size: 14px;
         margin-left: 8px;
     }
     
     .account_block i {
-        font-size: 18px;
+        font-size: 14px;
         color: #fff;
     }
     .socials {
@@ -669,9 +850,185 @@ font-size: 20px;
         width: 116px;
     }
 
+    .text_title {
+        font-size: 14px;
+    }
+
+    .header_text {
+        font-size: 40px;
+        line-height: 62px;
+    }
+
 
 }
 
+@media screen and (max-width: 784px) {
+
+    .account_block {
+        margin-left: 38px;
+    }
+
+   .numbers_of_text {
+       font-size: 200px;
+       margin-left: -86px;
+   }
+
+   .text_title_middle_block {
+       font-size: 12px;
+       margin-left: -60px;
+       margin-top: 46px;
+   }
+
+   .text_title_middle_block img {
+    width: 40px;
+
+    }
+
+    .title_of_mainblock {
+        font-size: 35px;
+        margin-left: -70px;
+    }
+
+    .hiking_text_block {
+        font-size: 14px;
+        line-height: 25px;
+        margin-left: -70px;
+    }
+
+    .numbers_of_text_second {
+        font-size: 200px;
+        margin-left: 1px;
+    }
+
+    .text_title_middle_block_second {
+        font-size: 12px;
+        margin-left: 32px;
+        margin-top: 17px;
+
+    }
+
+    .text_title_middle_block_second img {
+        width: 40px;
+    }
+
+    .title_of_mainblock_second {
+        font-size: 35px;
+        margin-left: 58px;
+    }
+
+    .hiking_text_block_second {
+        font-size: 14px;
+        line-height: 25px;
+        margin-left: 70px;
+    }
+
+    .hiking_arrow_right_second a {
+        margin-left: 18px;
+    }
+
+    .numbers_of_text_third {
+        font-size: 200px;
+        margin-left: -78px;
+    }
+
+    .text_title_middle_block_third {
+        font-size: 12px;
+        margin-left: -34px;
+        margin-top: 46px;
+    }
+ 
+    .text_title_middle_block_third img {
+     width: 40px;
+ 
+     }
+
+     .title_of_mainblock_third {
+        font-size: 35px;
+        margin-left: -61px;
+
+     }
+
+     .hiking_text_block_third {
+        font-size: 14px;
+        line-height: 25px;
+        margin-left: -54px;
+    }
+
+    .hiking_arrow_right_third a {
+        margin-left: 13px;
+    }
+
+    .img_of_about_second {
+        width: 242px;
+        height: 358px;
+        margin-top: 211px;
+        margin-left: 11px;
+    }
+
+    .img_of_about_third {
+        width: 242px;
+        height: 358px;
+        margin-top: 211px;
+        margin-left: -10px;
+    }
+
+    .equipment_title {
+        padding-top: 80px;
+        padding-bottom: 30px;
+        text-align: center;
+        font-size: 42px;
+        font-family: 'GilroyExtraBold';
+        color: #FBD784;
+        border-bottom: 2px solid #FBD784;
+        opacity: 0.8;
+    }
+    
+    .boots img{
+        width: 131px;
+        height: 167px;
+        border-radius: 25px;
+        margin-bottom: 60px;
+        margin-top: 50px;
+    
+      
+    }
+    
+    .bagpacks img{
+        width: 131px;
+        height: 167px;
+        border-radius: 25px;
+        margin-bottom: 60px;
+        margin-top: 50px;
+      
+    }
+    
+    .camp img{
+        width: 131px;
+        height: 167px;
+        border-radius: 25px;
+        margin-bottom: 60px;
+        margin-top: 50px;
+       
+    }
+    
+    .equipment_list {
+        border-bottom: 2px solid #FBD784;
+        margin-bottom: 60px;
+    }
+    
+    .footer_nav1 {
+        margin-right: 20px;
+    }
+
+    .footer_nav1, .footer_nav2 {
+        margin-left: -74px;
+    }
+
+    .footer_nav2 {
+        margin-left: -34px;
+    }
+
+}
 
 
 @media screen and (max-width: 530px) {
@@ -736,9 +1093,9 @@ font-size: 20px;
     }
     
     .text_title img {
-    padding-right: 12px;
-    width: 59px;
-    height: 2px;
+        padding-right: 12px;
+        width: 59px;
+        height: 2px;
     }
     
     .header_text {
@@ -775,7 +1132,218 @@ font-size: 20px;
         margin-left: 11px;
     }
 
+    .img_of_about_second {
+        width: 142px;
+        height: 258px;
+        margin-top: 211px;
+        margin-left: 11px;
+    }
+
+    .img_of_about_third {
+        width: 142px;
+        height: 258px;
+        margin-top: 211px;
+        margin-left: 11px;
+    }
+
+    .boots img{
+        width: 107px;
+        height: 104px;
+        border-radius: 25px;
+        margin-bottom: 60px;
+        margin-top: 50px;
+    }
+    
+    .bagpacks img{
+        width: 107px;
+        height: 104px;
+        border-radius: 25px;
+        margin-bottom: 60px;
+        margin-top: 50px;
+    }
+    
+    .camp img{
+        width: 107px;
+        height: 104px;
+        border-radius: 25px;
+        margin-bottom: 60px;
+        margin-top: 50px;
+    }
+
+
+    .footer_text {
+        font-size: 14px;
+        width: 187px;
+    }
+
+    .footer_copy {
+        width: 178px;
+    }
+
 
 
 }
 
+@media screen and (max-width: 320px) {
+    .numbers_of_text {
+        font-size: 140px;
+    }
+
+    .title_of_mainblock {
+        font-size: 25px;
+    }
+
+    .text_title_middle_block {
+        font-size: 12px;
+        margin-left: -61px;
+        margin-top: 72px;
+        width: 293px;
+        letter-spacing: 2px;
+    }
+    
+    .hiking_text_block {
+        font-size: 12px;
+        margin-left: -67px;
+        width: 135px;
+    }
+
+    .numbers_of_text_second {
+        font-size: 140px;
+        margin-top: 45px;
+        padding-bottom: 25px;
+    }
+
+    .numbers_of_text_third {
+        font-size: 140px;
+    }
+
+    .title_of_mainblock {
+        font-size: 25px;
+    }
+
+    .hiking_arrow_right {
+        margin-left: -2px;
+    }
+
+    .hiking_arrow_right a {
+        font-size: 16px;
+    }
+
+    .title_of_mainblock_second {
+        font-size: 25px;
+    }
+
+    .text_title_middle_block_second {
+        font-size: 12px;
+        margin-left: -22px;
+        width: 293px;
+        letter-spacing: 2px;
+    }
+    
+    .hiking_text_block_second {
+        font-size: 12px;
+        margin-left: 59px;
+        width: 135px;
+    }
+
+    .hiking_arrow_right_second {
+        margin-left: -74px;
+    }
+
+    .hiking_arrow_right_second a {
+        font-size: 16px;
+    }
+
+
+
+    .title_of_mainblock_third {
+        font-size: 25px;
+    }
+
+    .text_title_middle_block_third {
+        font-size: 12px;
+        margin-left: -62px;
+        width: 293px;
+        letter-spacing: 2px;
+    }
+
+    .hiking_text_block_third{ 
+        font-size: 12px;
+        margin-left: -54px;
+        width: 135px;
+    }
+    
+    .hiking_arrow_right_third {
+        margin-left: -2px;
+    }
+
+    .hiking_arrow_right_third a {
+        font-size: 16px;
+    }
+
+    
+    
+
+    .img_of_about {
+        width: 122px;
+        height: 185px;
+        margin-top: 211px;
+        margin-left: 11px;
+    }
+
+    .img_of_about_second {
+        width: 122px;
+        height: 185px;
+        margin-top: 211px;
+        margin-left: 11px;
+    }
+
+    .img_of_about_third {
+        width: 122px;
+        height: 185px;
+        margin-top: 211px;
+        margin-left: 11px;
+    }
+
+
+    .boots img{
+        width: 94px;
+        height: 94px;
+        border-radius: 25px;
+        margin-bottom: 60px;
+        margin-top: 50px;
+    }
+    
+    .bagpacks img{
+        width: 94px;
+        height: 94px;
+        border-radius: 25px;
+        margin-bottom: 60px;
+        margin-top: 50px;
+    }
+    
+    .camp img{
+        width: 94px;
+        height: 94px;
+        border-radius: 25px;
+        margin-bottom: 60px;
+        margin-top: 50px;
+    }
+
+    .footer_text {
+        font-size: 12px;
+        width: 130px;
+    }
+
+    .footer_copy {
+        width: 305px;
+    }
+
+    .footer_nav1 {
+        margin-left: -104px;
+    }
+
+    .footer_nav2 {
+        margin-left: -51px;
+    }
+}
